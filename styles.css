@@ -74,7 +74,7 @@ body {
 }
 
 .banner {
-    width: 100%;
+    width: 90%;
     height: 100px;
     border: 10px solid white;
     box-shadow: 0px 0px 2px grey;
@@ -93,4 +93,64 @@ body {
     text-transform: capitalize;
     letter-spacing: 2px;
     text-shadow: 2px 2px 1px black;
+}
+
+.cards {
+    float: left;
+    width: 185px;
+    height: 305px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px #ddd;
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.cards:last-child {
+    margin-right: 0px;
+}
+
+.cards .icon {
+    display: block;
+    width: 100px;
+    height: 130px;
+    line-height: 110px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.cards .category {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards .description {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.barra {
+    width: 300px;
+    min-height: 1200px;
+    float: right;
+}
+
+.barra h3 {
+    display: block;
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    background: url(img/pxgray.png);
+    box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
